@@ -16,7 +16,7 @@ echo "---------------------------------------------------------------"
 get-debloated-pkgs --add-common --prefer-nano ffmpeg-mini
 
 # Comment this out if you need an AUR package
-#make-aur-package PACKAGENAME
+make-aur-package qmmp-plugin-pack
 
 # If the application needs to be manually built that has to be done down here
 
