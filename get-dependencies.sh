@@ -12,6 +12,7 @@ pacman -Syu --noconfirm \
     kvantum        \
     pipewire-audio \
     pipewire-jack  \
+    projectm       \
     qmmp           \
     qt6-tools      \
     qt6ct
