@@ -17,7 +17,6 @@ pacman -Syu --noconfirm \
     qmmp           \
     qt6-tools      \
     qt6ct          \
-    sqlite         \
     wildmidi
 
 echo "Installing debloated packages..."
