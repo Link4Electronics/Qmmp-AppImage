@@ -8,6 +8,7 @@ echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
     kvantum        \
+    libfbclient    \
     libmpcdec      \
     libsidplayfp   \
     lxqt-qtplugin  \
