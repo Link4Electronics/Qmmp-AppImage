@@ -16,7 +16,7 @@ export QT_DIR=qt6
 export DEPLOY_PIPEWIRE=1
 
 # Deploy dependencies
-quick-sharun /usr/bin/qmmp /usr/lib/qmmp-*
+quick-sharun /usr/bin/qmmp /usr/lib/qmmp-* /usr/lib/qt6/plugins/sqldrivers/libqsql*.so*
 
 # Additional changes can be done in between here
 
