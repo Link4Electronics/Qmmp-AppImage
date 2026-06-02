@@ -19,6 +19,7 @@ pacman -Syu --noconfirm \
     qmmp           \
     qt6-tools      \
     qt6ct          \
+    unixodbc       \
     wildmidi
 
 echo "Installing debloated packages..."
