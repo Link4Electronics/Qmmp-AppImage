@@ -12,6 +12,7 @@ pacman -Syu --noconfirm \
     libmpcdec      \
     libsidplayfp   \
     lxqt-qtplugin  \
+    mariadb-libs   \
     pipewire-audio \
     pipewire-jack  \
     projectm       \
