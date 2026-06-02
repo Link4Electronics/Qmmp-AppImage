@@ -7,19 +7,20 @@ ARCH=$(uname -m)
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
-    kvantum        \
-    libfbclient    \
-    libmpcdec      \
-    libsidplayfp   \
-    lxqt-qtplugin  \
-    mariadb-libs   \
-    pipewire-audio \
-    pipewire-jack  \
-    projectm       \
-    qmmp           \
-    qt6-tools      \
-    qt6ct          \
-    unixodbc       \
+    kvantum         \
+    libfbclient     \
+    libmpcdec       \
+    libsidplayfp    \
+    lxqt-qtplugin   \
+    mariadb-libs    \
+    pipewire-audio  \
+    pipewire-jack   \
+    postgresql-libs \
+    projectm        \
+    qmmp            \
+    qt6-tools       \
+    qt6ct           \
+    unixodbc        \
     wildmidi
 
 echo "Installing debloated packages..."
